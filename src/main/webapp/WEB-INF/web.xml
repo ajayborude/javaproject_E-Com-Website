@@ -1,0 +1,48 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterUserServlet</servlet-name>
+  	<display-name>RegisterUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.user_servlets.RegisterUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginUserServlet</servlet-name>
+  	<display-name>LoginUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.user_servlets.LoginUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductOperationServlet</servlet-name>
+  	<display-name>ProductOperationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.user_servlets.ProductOperationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutUserServlet</servlet-name>
+  	<display-name>LogoutUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.user_servlets.LogoutUserServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>RegisterUserServlet</servlet-name>
+  	<url-pattern>/RegisterUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginUserServlet</servlet-name>
+  	<url-pattern>/LoginUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductOperationServlet</servlet-name>
+  	<url-pattern>/ProductOperationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutUserServlet</servlet-name>
+  	<url-pattern>/LogoutUserServlet</url-pattern>
+  </servlet-mapping> 
+</web-app>

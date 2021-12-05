@@ -1,0 +1,11 @@
+body {
+	background-color: red;
+}
+
+.card-hover {
+	cursor:pointer;
+	transition: 0.8s;
+}
+.card-hover:hover {
+	background: #efefef
+}
